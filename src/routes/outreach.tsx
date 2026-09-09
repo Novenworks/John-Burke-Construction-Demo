@@ -49,7 +49,7 @@ function OutreachPage() {
               ["License", `${site.license} · ${site.licenseClass} · ${site.licenseStatus}`],
               ["CSLB issued", site.licenseIssued],
               ["Original site", site.originalUrl],
-              ["GitHub", "https://github.com/questionzerozx/John-Burke-Construction-Demo"],
+              ["GitHub", "https://github.com/Novenworks/John-Burke-Construction-Demo"],
               ["Agency", "None. Footer: Powered by GoDaddy Website Builder."],
             ]}
           />
