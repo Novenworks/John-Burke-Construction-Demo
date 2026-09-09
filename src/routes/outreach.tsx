@@ -49,6 +49,7 @@ function OutreachPage() {
               ["License", `${site.license} · ${site.licenseClass} · ${site.licenseStatus}`],
               ["CSLB issued", site.licenseIssued],
               ["Original site", site.originalUrl],
+              ["Deployed demo", "https://john-burke-construction-demo.vercel.app"],
               ["GitHub", "https://github.com/Novenworks/John-Burke-Construction-Demo"],
               ["Agency", "None. Footer: Powered by GoDaddy Website Builder."],
             ]}
@@ -195,7 +196,7 @@ That gap is the whole note. The license (631941, Class B, issued 1991, current a
 
 Novenworks built a speculative redesign. You didn't hire us. The photographs are still yours.
 
-[DEMO URL]
+https://john-burke-construction-demo.vercel.app
 
 Happy to take it down if you'd rather it not exist. Either way, the number on the site is the one I used: (619) 838-1131.
 
@@ -206,7 +207,7 @@ Novenworks`}
 
         <Section title="Follow-up">
           <pre className="overflow-x-auto whitespace-pre-wrap border border-line bg-paper p-5 font-sans text-[0.95rem] leading-relaxed">
-            {`John — short follow-up on the speculative homepage. The live site still asks people to “log into” CSLB to check 631941; the demo links the board record directly and puts the commercial crew photo where a buyer actually looks. No one is claiming you hired this. Link again: [DEMO URL]`}
+            {`John — short follow-up on the speculative homepage. The live site still asks people to “log into” CSLB to check 631941; the demo links the board record directly and puts the commercial crew photo where a buyer actually looks. No one is claiming you hired this. Link again: https://john-burke-construction-demo.vercel.app`}
           </pre>
         </Section>
 

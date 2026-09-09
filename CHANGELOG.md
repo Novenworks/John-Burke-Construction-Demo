@@ -10,3 +10,5 @@
 - CTA: Request an Estimate → mailto to first-party `john@johnburkeconstruction.com`. No fake backend.
 - `/outreach` added, unlinked, `noindex`, disallowed in `robots.txt`.
 - Auth/db remain off (brochure site).
+- GitHub: https://github.com/Novenworks/John-Burke-Construction-Demo
+- Vercel production: https://john-burke-construction-demo.vercel.app (SSO protection off so the prospect can open it).

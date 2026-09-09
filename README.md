@@ -29,6 +29,12 @@ npm run build
 npm run typecheck
 ```
 
+## Live demo
+
+- Production: https://john-burke-construction-demo.vercel.app
+- GitHub: https://github.com/Novenworks/John-Burke-Construction-Demo
+- Operator brief: https://john-burke-construction-demo.vercel.app/outreach
+
 ## Routes
 
 - `/` homepage
