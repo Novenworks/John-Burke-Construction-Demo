@@ -178,46 +178,34 @@ function OutreachPage() {
           </ul>
         </Section>
 
-        <Section title="Subject lines">
-          <ol className="list-decimal space-y-2 pl-5">
-<li>John, I made something for John Burke Construction</li>
-<li>Had an idea for John Burke Construction</li>
-<li>John, I tried something with the John Burke Construction site</li>
-</ol>
-        </Section>
+        <Section title="Subject lines"><ol className="list-decimal space-y-2 pl-5"><li>John, I made something for John Burke Construction</li><li>Had an idea for John Burke Construction</li><li>Tried something with the John Burke Construction site</li></ol></Section>
 
-        <Section title="Cold email">
-          <pre className="overflow-x-auto whitespace-pre-wrap border border-line bg-paper p-5 font-sans text-[0.95rem] leading-relaxed">
-            {`Hi John,
+        <Section title="Cold email"><pre className="whitespace-pre-wrap rounded-lg bg-paper p-5 text-sm leading-relaxed">{`Hi John,
 
-I came across John Burke Construction and started looking through the site. A few minutes turned into me actually rebuilding the homepage.
+I came across John Burke Construction Inc. and ended up spending some time looking through the site.
 
-The part I wanted to bring forward was the work itself and the story behind the business.
+The real work is already the strongest part of the story.
+
+I had an idea for how I'd present it, so I built a version instead of sending you a bunch of suggestions.
 
 https://john-burke-construction-demo.vercel.app
 
-No big pitch here. I just like building when I see an idea worth trying.
+Thought you might be curious to see it.
 
-Curious what you think.
+If you like the direction, I can show you what I changed.
 
 Vincent
-Novenworks`}
-          </pre>
-        </Section>
+Novenworks`}</pre></Section>
 
-        <Section title="Follow-up">
-          <pre className="overflow-x-auto whitespace-pre-wrap border border-line bg-paper p-5 font-sans text-[0.95rem] leading-relaxed">
-            {`Hi John,
+        <Section title="Follow-up"><pre className="whitespace-pre-wrap rounded-lg bg-paper p-5 text-sm leading-relaxed">{`Hi John,
 
-Circling back once on this. I made that homepage concept for John Burke Construction and figured it was worth one more send.
+Just bumping this once in case it got buried. I put together that John Burke Construction concept and wanted to make sure you saw it.
 
 https://john-burke-construction-demo.vercel.app
 
-If it is not on your radar right now, all good.
+All good if it's not something you're looking at right now.
 
-Vincent`}
-          </pre>
-        </Section>
+Vincent`}</pre></Section>
 
         <Section title="Captures">
           <div className="grid gap-8">
