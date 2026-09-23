@@ -180,25 +180,25 @@ function OutreachPage() {
 
         <Section title="Subject lines">
           <ol className="list-decimal space-y-2 pl-5">
-            <li>John — your 2019 album still has the commercial shots the homepage hides</li>
-            <li>License 631941 is from 1991. The site still says © 2020.</li>
-            <li>A speculative homepage for John Burke Construction (not a pitch deck)</li>
-          </ol>
+<li>John, I made something for John Burke Construction</li>
+<li>Had an idea for John Burke Construction</li>
+<li>John, I tried something with the John Burke Construction site</li>
+</ol>
         </Section>
 
         <Section title="Cold email">
           <pre className="overflow-x-auto whitespace-pre-wrap border border-line bg-paper p-5 font-sans text-[0.95rem] leading-relaxed">
-            {`John —
+            {`Hi John,
 
-I was looking at johnburkeconstruction.com. The Photo Album nav item currently shows a single kitchen, while the same GoDaddy library still holds the commercial interior with your crew in it — and the homepage is still carrying a 2020 copyright on a GoDaddy builder template.
+I came across John Burke Construction and started looking through the site. A few minutes turned into me actually rebuilding the homepage.
 
-That gap is the whole note. The license (631941, Class B, issued 1991, current and active) and the work already on file support a clearer site than the one that's up.
-
-Novenworks built a speculative redesign. You didn't hire us. The photographs are still yours.
+The part I wanted to bring forward was the work itself and the story behind the business.
 
 https://john-burke-construction-demo.vercel.app
 
-Happy to take it down if you'd rather it not exist. Either way, the number on the site is the one I used: (619) 838-1131.
+No big pitch here. I just like building when I see an idea worth trying.
+
+Curious what you think.
 
 Vincent
 Novenworks`}
@@ -207,7 +207,15 @@ Novenworks`}
 
         <Section title="Follow-up">
           <pre className="overflow-x-auto whitespace-pre-wrap border border-line bg-paper p-5 font-sans text-[0.95rem] leading-relaxed">
-            {`John — short follow-up on the speculative homepage. The live site still asks people to “log into” CSLB to check 631941; the demo links the board record directly and puts the commercial crew photo where a buyer actually looks. No one is claiming you hired this. Link again: https://john-burke-construction-demo.vercel.app`}
+            {`Hi John,
+
+Circling back once on this. I made that homepage concept for John Burke Construction and figured it was worth one more send.
+
+https://john-burke-construction-demo.vercel.app
+
+If it is not on your radar right now, all good.
+
+Vincent`}
           </pre>
         </Section>
 
