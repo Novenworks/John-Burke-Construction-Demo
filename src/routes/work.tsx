@@ -16,15 +16,13 @@ function WorkPage() {
       <section className="border-b border-line px-4 py-16 sm:px-6 lg:px-10">
         <div className="mx-auto max-w-[1440px]">
           <p className="font-display text-[0.7rem] uppercase tracking-[0.22em] text-steel">
-            First-party photography
+            Photo album
           </p>
           <h1 className="mt-3 max-w-3xl font-display text-4xl font-semibold tracking-tight sm:text-5xl">
-            Work from the company album — not stock, not rendered.
+            Work from our jobs.
           </h1>
           <p className="mt-5 max-w-2xl text-[1.05rem] leading-relaxed text-muted">
-            Every photograph on this page was published by John Burke
-            Construction on johnburkeconstruction.com (live or archived).
-            Captions stay generic unless the original site named the job.
+            Photographs from our jobs: remodels, new construction, and commercial interiors.
           </p>
         </div>
       </section>
@@ -47,7 +45,7 @@ function WorkPage() {
                 <p className="font-display text-[0.95rem] font-semibold">
                   {p.caption}
                 </p>
-                <p className="mt-1 text-[0.85rem] text-muted">{p.note}</p>
+                
               </figcaption>
             </figure>
           ))}
@@ -57,8 +55,7 @@ function WorkPage() {
             Have a similar job?
           </h2>
           <p className="mt-3 max-w-xl text-muted">
-            Call {site.phoneDisplay} or request an estimate. References are
-            available from the company on request.
+            Call {site.phoneDisplay} or request an estimate. References are available on request.
           </p>
           <div className="mt-6 flex flex-col gap-3 sm:flex-row">
             <Button asChild>

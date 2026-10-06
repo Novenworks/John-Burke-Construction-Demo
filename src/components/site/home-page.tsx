@@ -40,7 +40,7 @@ function Hero() {
     <section className="relative isolate min-h-[min(88vh,820px)] overflow-hidden bg-ink text-paper">
       <img
         src="/images/work/crew-jobsite.jpg"
-        alt="John Burke Construction crew working a commercial interior jobsite"
+        alt="Crew working a commercial interior jobsite"
         className="absolute inset-0 size-full object-cover object-[center_30%]"
       />
       <div className="absolute inset-0 bg-gradient-to-r from-ink/92 via-ink/72 to-ink/25" />
@@ -110,15 +110,15 @@ function Services() {
   return (
     <section id="services" className="scroll-mt-24 px-4 py-20 sm:px-6 lg:px-10">
       <div className="mx-auto max-w-[1440px]">
-        <Eyebrow>What we take on</Eyebrow>
+        <Eyebrow>Services</Eyebrow>
         <div className="mt-3 flex flex-col justify-between gap-6 lg:flex-row lg:items-end">
           <h2 className="max-w-xl font-display text-3xl font-semibold tracking-tight sm:text-4xl">
-            Grouped the way a buyer actually decides.
+            What we take on
           </h2>
           <p className="max-w-md text-[0.98rem] leading-relaxed text-muted">
-            John Burke Construction is an all-aspect contractor: new work,
-            remodel, and repair — residential and commercial — with a division
-            dedicated to wood rot and termite repair.
+            We take on new work, remodels, and repairs, residential and
+            commercial, and we have a division dedicated to wood rot and
+            termite repair.
           </p>
         </div>
         <div className="mt-12 grid gap-6 lg:grid-cols-3">
@@ -166,7 +166,7 @@ function Services() {
 }
 
 function Work() {
-  const featured = projects.slice(0, 4);
+  const featured = projects.slice(0, 3);
   return (
     <section id="work" className="scroll-mt-24 bg-ink py-20 text-paper">
       <div className="mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-10">
@@ -176,7 +176,7 @@ function Work() {
               Real work
             </p>
             <h2 className="mt-3 font-display text-3xl font-semibold tracking-tight sm:text-4xl">
-              Photographs from the company’s own album.
+              Photos from our jobs.
             </h2>
           </div>
           <Button asChild variant="ghost">
@@ -208,7 +208,6 @@ function Work() {
                 <span className="font-display text-[0.85rem] font-medium tracking-wide">
                   {p.caption}
                 </span>
-                <span className="text-[0.8rem] text-paper/50">{p.note}</span>
               </figcaption>
             </figure>
           ))}
@@ -228,33 +227,21 @@ function Difference() {
             alt="John Burke standing with a lettered Burke Construction work truck"
             className="w-full max-w-md object-contain"
           />
-          <p className="mt-3 text-[0.8rem] text-muted">
-            First-party archive: owner with the company truck.
-          </p>
         </div>
         <div>
-          <Eyebrow>Why this company</Eyebrow>
+          <Eyebrow>Why John Burke Construction</Eyebrow>
           <h2 className="mt-3 font-display text-3xl font-semibold tracking-tight sm:text-4xl">
-            A practical San Diego contractor for jobs that need experienced
-            coordination.
+            A San Diego contractor for jobs that need experienced coordination.
           </h2>
           <div className="mt-6 space-y-4 text-[1.02rem] leading-relaxed text-ink/85">
             <p>
-              The same license has covered both houses and commercial spaces
-              since 1991. The live site still says it plainly: new, remodel, and
-              repair — and a whole division for wood rot and termite work, also
-              registered with CSLB as {site.dba}.
+              One license has covered both houses and commercial spaces since 1991. We do new construction, remodels, and repairs, and we have a whole division for wood rot and termite work, registered with CSLB as {site.dba}.
             </p>
             <p>
-              That range is the point. Kitchen and living-room remodels sit in
-              the same album as commercial interiors with the crew on site. If
-              the job is small, it still gets a licensed contractor — the
-              company’s own copy mentions jobs from large commercial work down
-              to unusual residential calls.
+              Our work ranges from kitchen and living-room remodels to commercial interiors. We have completed projects from multi-million dollar commercial jobs all the way down to rescuing a house cat trapped between two interior walls. Small jobs get a licensed contractor too.
             </p>
             <p>
-              Do not take our word for the license. Look up {site.license} on
-              the Contractors State License Board.
+              Don't take our word for the license. Look up {site.license} on the Contractors State License Board.
             </p>
           </div>
           <Button asChild className="mt-8" variant="outline">
@@ -274,7 +261,7 @@ function Process() {
       <div className="mx-auto max-w-[1440px]">
         <Eyebrow>How a job starts</Eyebrow>
         <h2 className="mt-3 max-w-xl font-display text-3xl font-semibold tracking-tight sm:text-4xl">
-          No invented timeline. Three honest steps.
+          How we start: three steps.
         </h2>
         <ol className="mt-12 grid gap-8 md:grid-cols-3">
           {process.map((step) => (
@@ -300,9 +287,9 @@ function Capabilities() {
   return (
     <section className="px-4 py-16 sm:px-6 lg:px-10">
       <div className="mx-auto max-w-[1440px]">
-        <Eyebrow>Also on the truck</Eyebrow>
+        <Eyebrow>Also available</Eyebrow>
         <h2 className="mt-3 font-display text-2xl font-semibold tracking-tight">
-          Secondary trades, same contractor.
+          Other trades, same contractor.
         </h2>
         <ul className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
           {secondary.map((item) => (
@@ -323,10 +310,9 @@ function Reputation() {
   return (
     <section id="testimonials" className="bg-ink px-4 py-20 text-paper sm:px-6 lg:px-10">
       <div className="mx-auto max-w-[1440px]">
-        <Eyebrow>From the company’s testimonial page</Eyebrow>
+        <Eyebrow>Testimonials</Eyebrow>
         <h2 className="mt-3 max-w-2xl font-display text-3xl font-semibold tracking-tight sm:text-4xl">
-          Names and words published by John Burke Construction — not invented
-          here.
+          What our customers say.
         </h2>
         <div className="mt-12 grid gap-8 lg:grid-cols-2">
           {testimonials.map((t) => (
@@ -347,8 +333,7 @@ function Reputation() {
           ))}
         </div>
         <p className="mt-8 max-w-2xl text-[0.95rem] text-paper/60">
-          The original site still says: for more testimonials and references,
-          call or email. We have not added review counts from other websites.
+          For more testimonials and references, call or email us.
         </p>
       </div>
     </section>
@@ -362,13 +347,10 @@ function Local() {
         <div>
           <Eyebrow>San Diego County</Eyebrow>
           <h2 className="mt-3 font-display text-3xl font-semibold tracking-tight sm:text-4xl">
-            Based on a Santee license. Working San Diego since 1991.
+            Serving San Diego since 1991.
           </h2>
           <p className="mt-5 text-[1.02rem] leading-relaxed text-muted">
-            The first-party site does not publish a city-by-city service list,
-            so this redesign does not invent one. The licensed address on file
-            with CSLB is {site.licensedAddress}. The public promise is the one
-            on the current homepage: serving San Diego.
+            We serve San Diego. Our licensed business address is {site.licensedAddress}.
           </p>
         </div>
         <div className="border border-line bg-cream p-8">
@@ -413,11 +395,10 @@ function FinalCta() {
           Ready to talk
         </p>
         <h2 className="mt-3 max-w-xl font-display text-3xl font-semibold tracking-tight sm:text-5xl">
-          Request an estimate. Or just call John.
+          Request an estimate, or call us.
         </h2>
         <p className="mt-5 max-w-lg text-paper/75">
-          No online booking calendar is published on the current site, so this
-          page does not pretend to have one.
+          Send us a note about your project or call us directly. We will take it from there.
         </p>
         <div className="mt-8 flex flex-col gap-3 sm:flex-row">
           <Button asChild variant="invert" size="lg">

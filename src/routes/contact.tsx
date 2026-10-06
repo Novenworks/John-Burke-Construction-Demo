@@ -23,9 +23,7 @@ function ContactPage() {
               Request an estimate.
             </h1>
             <p className="mt-5 max-w-xl text-[1.05rem] leading-relaxed text-muted">
-              Drop a line the way the current site asks — John will take it
-              from there. The company still offers a list of references; just
-              ask.
+              Tell us about your project and we will take it from there. You can also ask us for a list of references.
             </p>
             <div className="mt-10 max-w-xl border border-line bg-cream p-6 sm:p-8">
               <EstimateForm />
@@ -60,7 +58,7 @@ function ContactPage() {
               </div>
               <div>
                 <dt className="text-[0.8rem] text-paper/50">
-                  Licensed address (CSLB)
+                  Licensed address
                 </dt>
                 <dd className="mt-1 text-paper/80">{site.licensedAddress}</dd>
               </div>
