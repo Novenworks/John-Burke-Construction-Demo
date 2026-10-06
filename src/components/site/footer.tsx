@@ -35,7 +35,7 @@ export function SiteFooter() {
               </a>
             </li>
             <li className="text-paper/70">{site.licensedAddress}</li>
-            <li className="text-paper/50">Licensed business address (CSLB)</li>
+            <li className="text-paper/50">Licensed business address</li>
           </ul>
         </div>
         <div>
@@ -56,7 +56,7 @@ export function SiteFooter() {
                 Verify on cslb.ca.gov
               </a>
             </li>
-            <li>BBB rating {site.bbbRating} (not accredited)</li>
+            <li>BBB rating {site.bbbRating}</li>
           </ul>
         </div>
       </div>
@@ -64,7 +64,7 @@ export function SiteFooter() {
         <div className="mx-auto flex max-w-[1440px] flex-col gap-3 px-4 py-5 text-[0.8rem] text-paper/45 sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-10">
           <p>
             © {new Date().getFullYear()} {site.name}. All rights reserved.
-            Photography and marks remain property of their owners.
+            
           </p>
           <nav className="flex flex-wrap gap-x-5 gap-y-2" aria-label="Footer">
             <Link to="/" className="text-paper/60 no-underline hover:text-paper">

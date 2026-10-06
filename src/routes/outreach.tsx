@@ -56,34 +56,22 @@ function OutreachPage() {
           />
         </Section>
 
-        <Section title="Original-site observations">
+        <Section title="Original-site observations (checked 2026-10-06 via page fetch)">
           <ol className="list-decimal space-y-2 pl-5 text-[0.98rem] leading-relaxed">
             <li>
-              Copyright still reads 2020. The site is a GoDaddy Website Builder
-              8 template on a near-black field with League Spartan — a 2020-era
-              presentation that has not been materially redesigned.
+              The footer on the homepage, contact page and testimonials page still
+              reads “Copyright © 2020”, and the homepage says “over 25
+              years” while CSLB shows license 631941 issued 11/13/1991.
             </li>
             <li>
-              The homepage repeats “Building Trust with Quality Work” many times
-              and dumps the entire service list into one paragraph, including
-              the cat-rescue line, without a service architecture a buyer can
-              scan.
+              Contact page publishes john@johnburkeconstruction.com and
+              619.838.1131; the homepage has a working tel: link.
             </li>
             <li>
-              Navigation advertises Photo Album and Testimonials, but the live
-              album currently renders a single kitchen image. Stronger
-              commercial and living-room photographs still exist on the same
-              CDN from a 2019 snapshot and are unused.
-            </li>
-            <li>
-              Phone and email exist, but the homepage does not lead with a
-              clear estimate path. License 631941 is mentioned; the buyer is
-              told to “log into” CSLB rather than given a direct check link.
-            </li>
-            <li>
-              The company copy claims residential and commercial range,
-              including large commercial work, while the live visual system
-              communicates a thin brochure, not that range.
+              Not re-verified today: a real-browser mobile pass of the original site.
+              The original site was unreachable from the QA sandbox browser
+              (ERR_CONNECTION_RESET), so no mobile or layout claim should be made
+              in outreach.
             </li>
           </ol>
         </Section>
@@ -178,34 +166,29 @@ function OutreachPage() {
           </ul>
         </Section>
 
-        <Section title="Subject lines"><ol className="list-decimal space-y-2 pl-5"><li>John, I made something for John Burke Construction</li><li>Had an idea for John Burke Construction</li><li>Tried something with the John Burke Construction site</li></ol></Section>
+        <Section title="Subject lines"><ol className="list-decimal space-y-2 pl-5"><li>Your website footer still says 2020</li><li>A version of johnburkeconstruction.com built around your own photos</li></ol></Section>
 
-        <Section title="Cold email"><pre className="whitespace-pre-wrap rounded-lg bg-paper p-5 text-sm leading-relaxed">{`Hi John,
+        <Section title="Contact channel (verified 2026-10-06)">
+          <p className="text-[0.98rem] leading-relaxed">
+            Published business email john@johnburkeconstruction.com and phone 619.838.1131
+            on https://johnburkeconstruction.com/contact-us. Send to the email only. Do not
+            guess other mailboxes. The prospect receives the demo root URL, never /outreach.
+          </p>
+        </Section>
 
-I came across John Burke Construction Inc. and ended up spending some time looking through the site.
+        <Section title="Outreach email (do not send without review)"><pre className="whitespace-pre-wrap rounded-lg bg-paper p-5 text-sm leading-relaxed">{`Hi John,
 
-The real work is already the strongest part of the story.
+I was on johnburkeconstruction.com today and the footer still reads Copyright © 2020, and the homepage still says "over 25 years" even though your license has been active since 1991. Your own photos of the kitchen, living room and commercial work are stronger than the current pages make them look.
 
-I had an idea for how I'd present it, so I built a version instead of sending you a bunch of suggestions.
-
-https://john-burke-construction-demo.vercel.app
-
-Thought you might be curious to see it.
-
-If you like the direction, I can show you what I changed.
-
-Vincent
-Novenworks`}</pre></Section>
-
-        <Section title="Follow-up"><pre className="whitespace-pre-wrap rounded-lg bg-paper p-5 text-sm leading-relaxed">{`Hi John,
-
-Just bumping this once in case it got buried. I put together that John Burke Construction concept and wanted to make sure you saw it.
+I built a version of the site around those photos, with your services grouped into remodels and additions, wood rot and termite repair, and new and commercial work, a direct CSLB license check link, and an estimate form that opens an email to your real address:
 
 https://john-burke-construction-demo.vercel.app
 
-All good if it's not something you're looking at right now.
+If you want it, I handle the whole job: copy, build, mobile polish, connecting it to your existing phone and email, technical setup and launch. I handle the work. You review and approve.
 
-Vincent`}</pre></Section>
+Want me to send over the full breakdown of what you get and what it costs?
+
+Vincent, Novenworks`}</pre></Section>
 
         <Section title="Captures">
           <div className="grid gap-8">

@@ -4,7 +4,7 @@ export const site = {
   tagline: "Residential & Commercial Construction",
   headline: "A General Contractor for More Than One Kind of Project",
   support:
-    "San Diego work that needs a licensed Class B contractor — remodels and additions, wood rot and termite repair, and commercial interiors — coordinated by a company that has been on the license since 1991.",
+    "Remodels and additions, wood rot and termite repair, and commercial interiors. We are a licensed Class B contractor and have served San Diego since 1991.",
   phoneDisplay: "(619) 838-1131",
   phoneTel: "6198381131",
   email: "john@johnburkeconstruction.com",
@@ -37,7 +37,7 @@ export const services = [
     title: "Remodels & additions",
     image: "/images/work/kitchen-remodel.jpg",
     imageAlt:
-      "Finished kitchen remodel by John Burke Construction, cherry cabinetry and island",
+      "Kitchen remodel with cherry cabinetry and island",
     body: "Kitchens, bathrooms, and room additions for houses that need to keep working while the job is open.",
     items: ["Kitchen remodels", "Bathroom remodels", "Room additions"],
   },
@@ -46,7 +46,7 @@ export const services = [
     title: "Repair that lasts",
     image: "/images/about/john-burke-truck.jpg",
     imageAlt: "John Burke with a Burke Construction work truck",
-    body: "A dedicated wood rot and termite repair practice — the company also holds the DBA San Diego Wood Rot Repair — plus foundation, concrete, decks, and custom fences.",
+    body: "A dedicated wood rot and termite repair practice, which we also operate as San Diego Wood Rot Repair, plus foundation, concrete, decks, and custom fences.",
     items: [
       "Wood rot repair",
       "Termite repair",
@@ -59,8 +59,8 @@ export const services = [
     title: "New work & commercial",
     image: "/images/work/commercial-interior.jpg",
     imageAlt:
-      "John Burke Construction crew working an interior commercial space",
-    body: "New construction and commercial interiors as well as residential work. Plumbing and electrical are part of the same coordination, not a separate runaround.",
+      "Crew working an interior commercial space",
+    body: "New construction and commercial interiors as well as residential work. Plumbing and electrical are part of the same job, so you deal with one contractor.",
     items: ["New construction", "Commercial interiors", "Plumbing & electrical"],
   },
 ] as const;
@@ -70,49 +70,41 @@ export const projects = [
     src: "/images/work/commercial-interior.jpg",
     alt: "Crew finishing a commercial interior",
     caption: "Commercial interior",
-    note: "First-party photo from the company album.",
   },
   {
     src: "/images/work/kitchen-rancho-santa-fe.jpg",
     alt: "Kitchen remodel in Rancho Santa Fe",
     caption: "Kitchen remodel, Rancho Santa Fe",
-    note: "Caption published on the 2011 first-party homepage.",
   },
   {
     src: "/images/work/living-dining-remodel.jpg",
     alt: "Living and dining room remodel with fireplace",
     caption: "Living & dining remodel",
-    note: "First-party photo from the company album.",
   },
   {
     src: "/images/work/kitchen-remodel.jpg",
     alt: "Kitchen remodel with island and stainless appliances",
     caption: "Kitchen remodel",
-    note: "Currently on the live Photo Album page.",
   },
   {
     src: "/images/work/crew-jobsite.jpg",
     alt: "Crew on a commercial jobsite",
     caption: "Jobsite coordination",
-    note: "Currently on the live homepage.",
   },
   {
     src: "/images/work/new-construction.jpg",
     alt: "New house framing under construction",
     caption: "New construction",
-    note: "First-party archive photograph.",
   },
   {
     src: "/images/work/new-construction-frame.jpg",
     alt: "Wood framing on a new construction project",
     caption: "Framing",
-    note: "First-party archive photograph.",
   },
   {
     src: "/images/work/kitchen-remodel-archive.jpg",
     alt: "Kitchen remodel archive photograph",
     caption: "Kitchen remodel",
-    note: "First-party archive photograph.",
   },
 ] as const;
 
@@ -135,17 +127,17 @@ export const process = [
   {
     n: "01",
     title: "Call or write",
-    body: "Reach John at the number and email on this site. Say what the building is doing wrong, or what you want added.",
+    body: "Call or email us. Tell us what the building is doing wrong, or what you want added.",
   },
   {
     n: "02",
     title: "Walk the job",
-    body: "A visit to the house or commercial space. References are available on request — the contact page still offers them.",
+    body: "We visit the house or commercial space. You can also ask us for a list of references.",
   },
   {
     n: "03",
     title: "Build it clean",
-    body: "The work is coordinated in-house across the trades listed on this site. The crew’s own clients mention leaving the space immaculate at the end of each day.",
+    body: "We coordinate the trades listed on this site, and we leave the work space clean at the end of each day.",
   },
 ] as const;
 
