@@ -22,6 +22,7 @@ export const Route = createRootRoute({
           "John Burke Construction Inc. — San Diego residential and commercial general contractor. CSLB license 631941. Call (619) 838-1131.",
       },
       { name: "theme-color", content: "#161412" },
+      { name: "robots", content: "noindex, nofollow" },
     ],
     links: [
       { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
